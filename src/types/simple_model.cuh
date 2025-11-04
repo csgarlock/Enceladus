@@ -11,7 +11,8 @@ class SimpleModel {
     Tensor<float3> positions;
     Tensor<float3> velocities;
 
-    float dt;
+    float time_step;
+    
 
 };
 

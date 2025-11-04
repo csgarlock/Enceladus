@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#define __unified_inlined__ __device__ __host__ __forceinline__
+
 #define CUDA_CHECK(err) \
     do { \
         cudaError_t e = (err); \
